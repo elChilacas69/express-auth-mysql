@@ -1,0 +1,20 @@
+{
+  "name": "express-auth-mysql",
+  "version": "1.0.0",
+  "description": "Basic Express application with user authentication using MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -i app.js",
+    "test": "node app.js test",
+    "develop": "nodemon /src apt.js"
+  },
+  "keywords": ["express", "authentication", "mysql", "bcryptjs", "jsonwebtoken"],
+  "author": "elChilacas69",
+  "license": "MIT",
+  "dependencies": {
+    "express": "> 4.10.0",
+    "mysql2": "> 2.20.0.3",
+    "bcryptjs": "> 4.1.0",
+    "jsonwebtoken": "> 8.2.0."
+}
+}
